@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.img_box{
+    background-image: url(../project1/media/apj.webp);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.hold{
+    border: 2px dotted black;
+    background-color: gray;
+}
